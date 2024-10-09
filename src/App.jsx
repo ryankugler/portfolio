@@ -69,10 +69,11 @@ function App() {
 
   return (
     <>
-      <button type='button' onClick={handleThemeSwitch} className='fixed p-2 z-10 right-20 top-4 bg-violet-300 text-lg p-1 rounded-md dark:bg-orange-300'>
+      <button type='button' onClick={handleThemeSwitch} className='fixed z-10 right-20 top-4 bg-violet-300 text-lg p-1 rounded-md dark:bg-orange-300'>
         {theme === 'dark'? sun : moon}
       </button>
-      <div className='bg-white dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter max-w-5xl w-11/12 mx-auto'>
+      <div className='bg-white dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter'>
+        <div className='max-w-5xl w-11/12 mx-auto'>
         <div className='pb-10 mb-1'>
           <span>
             <Intro />
@@ -84,6 +85,7 @@ function App() {
         <Timeline/>
         <Contact/>
         <Footer/>
+        </div>
       </div>
     </>
   )
