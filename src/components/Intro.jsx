@@ -5,7 +5,7 @@ function Intro() {
         <div>
         <div className="flex items-center justify-center pt-20 pb-2">
             <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold drop-shadow-md mr-4">Ryan Kugler</h1>
-            <img className="w-32 h-50 rounded-full border-4 border-black shadow-lg hidden md:block" src="public/assets/headshot.jpeg" alt="headshot photo" />
+            <img className="w-32 h-50 rounded-full border-4 border-black shadow-lg hidden md:block" src="/assets/headshot.jpeg" alt="headshot photo" />
         </div>
             <div className="flex items-center flex-col justify-center pt-10 pb-6">
                 <p className="text-base sm:block md:text-xl mb-3 font-medium">Software Developer | BASc. in Computer Engineering</p>
