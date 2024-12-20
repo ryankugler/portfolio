@@ -18,13 +18,13 @@ export default [
         imgUrl: '/assets/spotify-brand.jpg',
         stack: ['Python'],
         description: 'Quickly download the .mp3 of a Youtube video and integrate with personal, offline, Spotify playlists',
-        link: 'https://github.com/ryankugler'
+        link: 'https://github.com/ryankugler/yt2mp3'
     },
     {
         title: 'DumpOff',
         imgUrl: '/assets/dumpoff.jpg',
         stack: ['Swift', 'SwiftUI'],
         description: 'An iOS app I am currently developing to help dog-walkers find the nearest garbage can to dispose of their dog\'s waste. The app uses crowd-sourced data to pinpoint garbage can locations.',
-        link: 'https://github.com/ryankugler'
+        link: 'https://github.com/ryankugler/DumpOff'
     },
 ]

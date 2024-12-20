@@ -77,7 +77,6 @@ function App() {
         <div className='pb-10 mb-1'>
           <span>
             <Intro />
-            {/* <ProfilePhoto/> */}
           </span>
         </div>
         

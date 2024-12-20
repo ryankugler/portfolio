@@ -2,6 +2,14 @@ export default [
     
     {
         year: '2024',
+        title: 'Automation Engineer',
+        duration: 'November 2024 - Present',
+        company: 'Automation Accelerator',
+        details: ['Joined Automation Accelerator to support their mission of providing innovative solutions to difficult problems using automation and artificial intelligence',
+        ],
+    },
+    {
+        year: '2024',
         title: 'Graduated Computer Engineering!',
         duration: 'June 2024 ',
         company: 'University of Waterloo',
