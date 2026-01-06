@@ -1,9 +1,25 @@
 export default [
     
     {
+        year: '2026',
+        title: 'Pursuing a Master\'s Degree!',
+        duration: 'January 2026',
+        company: 'The University of Colorado-Boulder',
+        details: ['Enrolled in the Master\'s of Science in Artificial Intelligence at the University of Colorado-Boulder part-time!',
+        ],
+    },
+    {
+        year: '2025',
+        title: 'Vulnerability Security Engineer',
+        duration: 'February 2025 - Present',
+        company: 'TD Bank',
+        details: ['Joined TD Bank full-time as part of the Vulnerability Protect team!',
+        ],
+    },
+    {
         year: '2024',
         title: 'Automation Engineer',
-        duration: 'November 2024 - Present',
+        duration: 'November 2024 - December 2024',
         company: 'Automation Accelerator',
         details: ['Joined Automation Accelerator to support their mission of providing innovative solutions to difficult problems using automation and artificial intelligence',
         ],
