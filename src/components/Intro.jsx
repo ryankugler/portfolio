@@ -19,7 +19,7 @@ function Intro() {
                     className="text-green-600 hover:underline underline-offset-2 decoration-2" 
                     href="https://github.com/ryankugler"
                     rel="noreferrer noopener">
-                    Github
+                    GitHub
                     </a>
                 </p>
 

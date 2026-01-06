@@ -1,9 +1,16 @@
 export default [
     {
+        title: 'NBA Imposter Game',
+        imgUrl: '/assets/nba_imposter.jpg',
+        stack: ['Typescript', 'Concurrency', 'Statefulness', 'Real-Time', 'React'],
+        description: 'Everyone is given a random NBA superstar except for one player (the imposter), figure out who the imposter is before they can guess the NBA player!',
+        link: 'https://github.com/ryankugler/nba-imposter-game'
+    },
+    {
         title: '2-D Rectangle Packer',
         imgUrl: '/assets/aco.png',
         stack: ['Python', 'Ant Colony Optimization', 'numpy', 'matplotlib'],
-        description: 'This project implements a 2D rectangle packing algorithm using Ant Colony Optimization (ACO).',
+        description: 'This project implements a genetic algorithm using Ant Colony Optimization (ACO) to solve the NP-Hard Rectangle Packing Problem.',
         link: 'https://github.com/ryankugler/bin-packing-aco'
     },
     {
@@ -19,12 +26,5 @@ export default [
         stack: ['Python'],
         description: 'Quickly download the .mp3 of a Youtube video and integrate with personal, offline, Spotify playlists',
         link: 'https://github.com/ryankugler/yt2mp3'
-    },
-    {
-        title: 'DumpOff',
-        imgUrl: '/assets/dumpoff.jpg',
-        stack: ['Swift', 'SwiftUI'],
-        description: 'An iOS app I am currently developing to help dog-walkers find the nearest garbage can to dispose of their dog\'s waste. The app uses crowd-sourced data to pinpoint garbage can locations.',
-        link: 'https://github.com/ryankugler/DumpOff'
     },
 ]
