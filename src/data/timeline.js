@@ -18,7 +18,7 @@ export default [
     },
     {
         year: '2024',
-        title: 'Automation Engineer',
+        title: 'Automation Engineer (Contract)',
         duration: 'November 2024 - December 2024',
         company: 'Automation Accelerator',
         details: ['Joined Automation Accelerator to support their mission of providing innovative solutions to difficult problems using automation and artificial intelligence',
