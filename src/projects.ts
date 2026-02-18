@@ -2,11 +2,11 @@ import type { Project } from './types'
 
 export const DEFAULT_PROJECTS: Project[] = [
   {
-    title: 'NBA Imposter Game',
+    title: 'NBA Imposter Game (In Progress)',
     description:
       'Everyone is given a random NBA superstar except for one player (the imposter), figure out who the imposter is before they can guess the NBA player!',
     tags: ['Typescript', 'Postgres', 'Statefulness', 'Real-Time', 'React'],
-    link: 'https://github.com/ryankugler/nba-imposter-game',
+    link: 'https://nba-imposter.vercel.app/',
   },
   {
     title: '2-D Rectangle Packer',
