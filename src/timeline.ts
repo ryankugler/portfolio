@@ -47,7 +47,7 @@ export const DEFAULT_TIMELINE: TimelineEntry[] = [
     date: 'May 2021 - Aug 2021',
     role: 'Project Manager (Co-op)',
     company: 'AltaML / University of Waterloo',
-    body: 'Led a team of software developers and industry experts to create and deliver an AI/ML course for 90+ students using Gantt Charts for process-mapping; resulting in a 97% course-completion rate and 99% satisfaction rate Designed, administered, and tested 4 machine-learning oriented projects based on NLP, computer vision, sentiment analysis, and chatbots using Azure and various Python libraries (scikit-learn, OpenCV, NLTK)',
+    body: 'I led a cross-functional team to design and deliver an AI/ML learning experience, guiding students through hands-on projects in NLP, computer vision, sentiment analysis, and chatbots using Azure and Python’s machine learning ecosystem.',
   },
   {
     date: 'Jan 2021',
@@ -59,7 +59,7 @@ export const DEFAULT_TIMELINE: TimelineEntry[] = [
     date: 'Sep 2020 - Dec 2020',
     role: 'Front-End Software Developer (Co-op)',
     company: 'University of Waterloo',
-    body: 'I led a cross-functional team to design and deliver an AI/ML learning experience, guiding students through hands-on projects in NLP, computer vision, sentiment analysis, and chatbots using Azure and Python’s machine learning ecosystem.',
+    body: 'I built interactive front-end experiences in React for an academic platform used by hundreds of students',
   },
   {
     date: 'Jan 2020 - Apr 2020',
