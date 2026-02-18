@@ -1,17 +1,131 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/assets/icon-CAuLPLjS.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ryan's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-D-o5ilC9.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BxnRi1Iz.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    body.app-loading > :not(#loading-buffer) {
+      visibility: hidden;
+    }
+
+    #loading-buffer {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      background: #f5f0e8;
+      z-index: 9999;
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+
+    #loading-buffer.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #loading-buffer .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: #3b6ed4;
+      animation: loader-pulse 0.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes loader-pulse {
+      from { transform: scale(0.85); opacity: 0.65; }
+      to { transform: scale(1.2); opacity: 1; }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-7s5Ufip9.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DoEOlSOD.css">
+</head>
+<body class="app-loading">
+  <div id="loading-buffer" aria-hidden="true">
+    <div class="dot"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo" id="nav-name">Ryan Kugler</div>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <div class="toggle-icons"><span>☀️</span><span>🌙</span></div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="profile-photo-wrap">
+        <div class = "profile-photo-placeholder" id="photo-placeholder">
+          <span class="icon">
+            <img class="profile-photo" id="profile-img" src="/assets/me.JPEG" alt="Profile photo" />
+
+          </span>
+        </div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-eyebrow">Software Engineer</p>
+        <h1>I build things<br />for fun</h1>
+        <p class="hero-sub">
+          Toronto-based software developer focused on crafting clean, performant, and scalable applications.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">Work</p>
+    <h2>Selected Projects</h2>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <p class="section-label">Experience</p>
+    <h2>Professional Timeline</h2>
+    <div class="timeline" id="timeline-list"></div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">Get in Touch</p>
+    <h2>Let's Connect</h2>
+    <div class="contact-card reveal">
+      <p>
+        If you'd like to collaborate on a cool project or just say hello, feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:kuglerryan@gmail.com" class="btn btn-primary">kuglerryan@gmail.com</a>
+        <a href="https://github.com/ryankugler" class="btn btn-ghost">GitHub</a>
+        <a href="https://www.linkedin.com/in/ryan-kugler/" class="btn btn-ghost">LinkedIn</a>
+        <a href="#" class="btn btn-ghost">Resume ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Ryan Kugler </span>
+  </footer>
+
+</body>
 </html>
