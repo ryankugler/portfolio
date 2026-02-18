@@ -29,19 +29,19 @@ export const DEFAULT_TIMELINE: TimelineEntry[] = [
     date: 'Sept 2023 - Dec 2023',
     role: 'Software Engineer (Co-op)',
     company: 'Studica Robotics',
-    body: 'Refactored the company’s flagship application backend from C# to C++ leading to a 30% increase in system performance and full compatibility with API updates Leveraged Boost.Asio to facilitate real-time data reception from COM ports, enhancing the precision of gyro sensor data by 15% Pivoted the front-end architecture from an HTML/CSS structure into a dynamic and responsive React framework, improving load-times by 25% Packaged the application using Electron for cross-platform deployment on Windows and macOS',
+    body: 'From low-level C++ performance gains to a sleek React interface, I modernized a flagship application into a fast, real-time, cross-platform desktop experience',
   },
   {
     date: 'Jan 2023 - Apr 2023',
     role: 'Full-Stack Software Engineer (Co-op)',
     company: 'TD Bank',
-    body: 'Developed and maintained a Java and React application for bank associates, reducing approval-time for credit cards by 65% by automating eligibility-assessments and decision-making processes Created reusable and scalable UI components using TailwindCSS and MaterialUI in React, resulting in a 20% reduction in front-end development time Authored 60+ JUnit test-suites using Mockito, improving defect-detection in legacy code by 80%',
+    body: 'I helped transform credit card approvals into a fast, automated experience by assisting in the development of a full-stack Java and React application, designing scalable UI components, and writing extensive test coverage that significantly boosted product quality and team velocity.',
   },
   {
     date: 'Jan 2022 - Apr 2022',
     role: 'QA Analyst (Co-op)',
     company: 'TD Bank',
-    body: 'Built and executed testing suites using Tricentis Tosca to automate verification of high-security applications, achieving a 50% reduction in testing time Automated functional and regression tests, improving overall result accuracy by 15% Oversaw a test suite of over 300 test cases built to assess OOP behavior such as abstraction and inheritance',
+    body: 'I helped improve the quality and confidence of secure software releases by building automated test coverage, streamlining regression validation, and managing large-scale test suites that verified core object-oriented functionality.',
   },
   {
     date: 'May 2021 - Aug 2021',
@@ -59,13 +59,13 @@ export const DEFAULT_TIMELINE: TimelineEntry[] = [
     date: 'Sep 2020 - Dec 2020',
     role: 'Front-End Software Developer (Co-op)',
     company: 'University of Waterloo',
-    body: 'Led a team of software developers and industry experts to create and deliver an AI/ML course for 90+ students using Gantt Charts for process-mapping; resulting in a 97% course-completion rate and 99% satisfaction rate Designed, administered, and tested 4 machine-learning oriented projects based on NLP, computer vision, sentiment analysis, and chatbots using Azure and various Python libraries (scikit-learn, OpenCV, NLTK)',
+    body: 'I led a cross-functional team to design and deliver an AI/ML learning experience, guiding students through hands-on projects in NLP, computer vision, sentiment analysis, and chatbots using Azure and Python’s machine learning ecosystem.',
   },
   {
     date: 'Jan 2020 - Apr 2020',
     role: 'IT Analyst (Co-op)',
     company: 'MS Canada',
-    body: 'Engineered various software and hardware solutions for over 500 employees in English and French Conducted thorough analysis of recurring issues to identify trends and develop technical documentation for company solutions database, resulting in a 75% reduction in problem occurrence',
+    body: 'I engineered software and hardware solutions for a large workforce (in english and french!), analyzing recurring issues and building clear technical documentation that improved system reliability and day-to-day support efficiency.',
   },
   {
     date: '2019 - 2024',
