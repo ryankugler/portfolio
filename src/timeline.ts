@@ -59,7 +59,7 @@ export const DEFAULT_TIMELINE: TimelineEntry[] = [
     date: 'Sep 2020 - Dec 2020',
     role: 'Front-End Software Developer (Co-op)',
     company: 'University of Waterloo',
-    body: 'I built interactive front-end experiences in React for an academic platform used by hundreds of students',
+    body: 'I built interactive front-end experiences in React for an academic platform used by hundreds of students.',
   },
   {
     date: 'Jan 2020 - Apr 2020',

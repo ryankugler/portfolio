@@ -2,6 +2,13 @@ import type { Project } from './types'
 
 export const DEFAULT_PROJECTS: Project[] = [
   {
+    title: 'NBA Box Score Dashboard',
+    description:
+      'Live NBA box score dashboard that pulls scoreboard + full game details, shows quarter-by-quarter breakdowns, and lets you sort player stat tables by team with automatic refresh during live games.',
+    tags: ['TypeScript', 'React', 'ESPN API', 'Live Data', 'Sortable Tables'],
+    link: 'https://simplestatlines.vercel.app/',
+  },
+  {
     title: 'NBA Imposter Game (In Progress)',
     description:
       'Everyone is given a random NBA superstar except for one player (the imposter), figure out who the imposter is before they can guess the NBA player!',
